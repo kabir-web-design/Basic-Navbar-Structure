@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* navbar first design */
+.logo-text {
+  font-weight: 600;
+  color: white;
+  transition: all 0.3s ease;
+}
+.logo-text:hover {
+  color: #ffd700;
+  transform: translateY(-2px);
+}
+.custom-nav-link {
+  font-weight: 600;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.custom-nav-link:hover {
+  color: #ffd700;
+  transform: translateY(-2px);
+}
+
+/* Active page */
+.custom-nav-link.active {
+  font-weight: 700;
+  border-bottom: 2px solid white;
+}
+/* navbar first design */
+
+/* footer first design */
+
+.custom-footer {
+  /* transition: 0.4s ease; */
+  color: white;
+}
+
+.footer-item {
+  transition: all 0.3s ease;
+  /* padding: 5px 10px;
+  border-radius: 6px; */
+}
+
+.footer-item:hover {
+  /* background-color: #00b894; */
+  color: yellow;
+  transform: translateY(-3px);
+  cursor: pointer;
+}
+
+/* .footer-item:hover i {
+  color: yellow;
+} */
+
+/* footer first design */
